@@ -3,56 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a49db4aae3.js" crossorigin="anonymous"></script> 
     <!-- Remember to link to your CSS file! -->
 </head>
 <body>
+    <div class="banner">
+        <p class="banner">We will be closed Monday, May 30, 2022 for Memorial Day.</p>
+    </div>
     <!-- MENU PAGE -->
     <!-- TODO: Navbar here -->
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Info</a></li>
+        <li><a class="active" href="menu.html">Our Menu</a></li>
+        
+    </nav>
     <!-- TODO: Banner Image here-->
+    <img id="banner" alt="Banner logo" src="assets/images/banner.png">
     <main>
         <!-- Your job is to make the menu items in each section below a proper table! -->
-        Appetizers
-
-        Name Price
-        Chicken Satay $7.95
-        Fresh Rolls $6.95
-        
-        Lunch
-
-        Name Price
-        Panang Curry $9.95
-        Red Curry $9.95
-        Yellow Curry $8.95
-        Tom Ka Soup $8.95
-        Tom Yum Soup $8.95
-
-        Dinner
-
-        Name Price
-        Pad Thai $10.95
-        Pad See Ew $10.49
-        Rad Nah $10.49
-
-        Dessert
-
-        Name Price
-        Black Sticky Rice Pudding $3.99
-        Mango Sticky Rice $5.99
-
-        Beverages
-
-        Name Price
-        Thai Iced Coffee $3.49
-        Thai Iced Tea $3.49
-        Unsweetened Iced Tea $2.49
-
-        Side Orders
-        
-        Name Price
-        Jasmine rice $1.99
-        Brown rice $2.49
-        Cucumber Salad $2.99        
+        <h1><em>Our Menu</em></h1>
+        <img src="assets/images/shrimp-skewers.jpg" alt="shrimp-skewer-img">
+        <h2><em>Appetizers</em></h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chicken Satay</td>
+                <td>$7.95</td>
+            </tr>
+            <tr>
+                <td>Fresh Rolls</td>
+                <td>$6.95</td>
+            </tr>
+            
+        </table>
+        <h2><em>Lunch</em></h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td class="red">Panang Curry<i class="fa-solid fa-pepper-hot"></i></td>
+                <td>$9.95</td>
+            </tr>
+            <tr>
+                <td class="red">Red Curry<i class="fa-solid fa-pepper-hot"></i><i class="fa-solid fa-pepper-hot"></i></td>
+                <td>$9.95</td>
+            </tr>
+            <tr>
+                <td> Yellow Curry</td>
+                <td>$8.95</td>
+            </tr>
+            <tr>
+                <td class="red">Tom Ka Soup<i class="fa-solid fa-pepper-hot"></i></td>
+                <td>$8.95</td>
+            </tr>
+            <tr>
+                <td>Tom Yum Soup<i class="fa-solid fa-star"></i></td>
+                <td>$8.95</td>
+            </tr>
+        </table>
+        <h2><em>Dinner</em></h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Pad Thai<i class="fa-solid fa-star"></i></td>
+                <td>$10.95</td>
+            </tr>
+            <tr>
+                <td>Pad See Ew</td>
+                <td>$10.49</td>
+            </tr>
+            <tr>
+                <td>Red Nah</td>
+                <td>$10.49</td>
+            </tr>
+        </table>
+        <h2><em>Dessert</em></h2>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>     
+            </tr>
+            <tr>
+                <td>Black Sticky Rice Pudding</td>
+                <td>$3.99</td>
+            </tr>
+            <tr>
+                <td>Mango Sticky Rice<i class="fa-solid fa-star"></i></td>
+                <td>$5.99</td>
+            </tr>
+        </table>
+        <h2><em>Beverages</em></h2>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>     
+            </tr>
+            <tr>
+                <td>Thai Iced Coffee</td>
+                <td>$3.49</td>
+            </tr>
+            <tr>
+                <td>Thai Iced Tea</td>
+                <td>$3.49</td>
+            </tr>
+            <tr>
+                <td>Unsweetened Iced Tea</td>
+                <td>$2.49</td>
+            </tr>
+        </table>
+        <h2><em>Side Orders</em></h2>
+        <table class="lastTable">
+            <tr>
+              <th>Name</th>
+              <th>Price</th>     
+            </tr>
+            <tr>
+                <td>Jasmine Rice</td>
+                <td>$1.99</td>
+            </tr>
+            <tr>
+                <td>Brown Rice</td>
+                <td>$2.49</td>
+            </tr>
+            <tr>
+                <td>Cucumber Salad</td>
+                <td>$2.99</td>
+            </tr>
+        </table>  
     </main>
+    <footer>
+        <hr>
+        <div class="row">   
+              
+            <div class="column">
+
+                <h5><em>Join Our Mailing List</em></h5>
+                <input type="email" placeholder="Enter your email">
+                <button>Join Now</button>
+                <div>
+                <img class="copyright-img" src="assets/images/logo.png" alt="copyright-img">
+                <p class="copyright">Copyright <i class="fa-solid fa-copyright"></i>2022 All Rights Reserved.</p>
+                </div>    
+            </div>
+
+            <div class="column">
+
+            <h5><em>Contact Info</em></h5>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <strong>+66-123-456-789</strong> 
+            </p>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <strong>101 Thailand Rd, Bangkok, Thailand 12345 </strong>
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                <strong> h-thai-ml@gmail.com</strong>
+            </p>
+            </div>  
+             
+
+            <div class="column">
+
+                <h5><em>Follow Us!</em></h5>
+                <h5><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-yelp"></i><i class="fa-brands fa-pinterest"></i><i class="fa-brands fa-twitter"></i></h5>
+
+            </div>
+           
+        </div>  
+    </footer>
 </body>
 </html>

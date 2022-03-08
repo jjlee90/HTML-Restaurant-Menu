@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a49db4aae3.js" crossorigin="anonymous"></script> 
     <!-- Remember to link to your CSS file! -->
 </head>
 <body>
+    <div class="banner">
+        <p class="banner">We will be closed Monday, May 30, 2022 for Memorial Day.</p>
+    </div>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <nav class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a class="active" href="contact.html">Contact Info</a></li>
+        <li><a href="menu.html">Our Menu</a></li>
+        
+    </nav>
     <!-- TODO: Banner Image here-->
+    <img id="banner" alt="Banner logo" src="assets/images/banner.png">
     <main>
         <h2>Hours of Operation</h2>
         <p>
@@ -20,8 +33,59 @@
         </p>
         <h2>Contact Info</h2>
         <p>
-            <strong>Phone Number:</strong> TBD
+            <i class="fa-solid fa-phone"></i>
+            <strong>+66-123-456-789</strong> 
+        </p>
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <strong>101 Thailand Rd, Bangkok, Thailand 12345 </strong>
+        </p>
+        <p>
+            <i class="fa-solid fa-envelope"></i>
+            <strong> h-thai-ml@gmail.com</strong>
         </p>
     </main>
+    <footer>
+        <hr>
+        <div class="row">   
+              
+            <div class="column">
+
+                <h5><em>Join Our Mailing List</em></h5>
+                <input type="email" placeholder="Enter your email">
+                <button>Join Now</button>
+                <div>
+                <img class="copyright-img" src="assets/images/logo.png" alt="copyright-img">
+                <p class="copyright">Copyright <i class="fa-solid fa-copyright"></i>2022 All Rights Reserved.</p>
+                </div>    
+            </div>
+
+            <div class="column">
+
+            <h5><em>Contact Info</em></h5>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <strong>+66-123-456-789</strong> 
+            </p>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <strong>101 Thailand Rd, Bangkok, Thailand 12345 </strong>
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                <strong> h-thai-ml@gmail.com</strong>
+            </p>
+            </div>  
+             
+
+            <div class="column">
+
+                <h5><em>Follow Us!</em></h5>
+                <h5><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-yelp"></i><i class="fa-brands fa-pinterest"></i><i class="fa-brands fa-twitter"></i></h5>
+
+            </div>
+           
+        </div>  
+    </footer>
 </body>
 </html>

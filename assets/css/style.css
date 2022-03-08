@@ -5,7 +5,14 @@ body {
     background-color: beige;
     text-align: center;
 }
-
+/* banner */
+.banner {
+    padding: 1px;
+    width: 100%; 
+    background-color: #FFB72B;
+    color: black;
+    font-size: 1.5rem;
+}
 h1,
 h2 {
     color: darkred;
@@ -26,10 +33,14 @@ img {
 main {
     margin: 0 20%;
 }
-
+/* navbar */
+.active{
+    text-decoration: underline;
+    color: black;
+ }
 nav {
     background-color: beige;
-    padding: 10px;
+    padding: 2%;
 }
 
 nav ul {
@@ -53,7 +64,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 60%;
     height: auto;
     background-color: white;
 }
@@ -83,4 +94,45 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+/* font awesome icons */
+.fa-solid {
+    margin: 0 1.5%;
+}
+
+ /* menu spicy food */
+.red {
+    color:red;
+}
+.fa-pepper-hot {
+    margin: 0; 
+}
+/* footer */
+.copyright-img {
+    margin: 5% auto 1%;
+    width: 15%;
+}
+.right {
+    margin: 3% 3% 75%;
+    padding: 10px;
+}
+h5 {
+    margin: 3% ;
+    font-size: 1.2rem;
+    color: darkred;
+    text-align: center;
+    padding: 5px;
+    
+}
+.fa-brands {
+    margin: 0 1%;
+    font-size: 2rem;
+    color: green;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.copyright {
+    font-size: .7rem;
 }
