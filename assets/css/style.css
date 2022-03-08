@@ -100,12 +100,15 @@ th {
     margin: 0 1.5%;
 }
 
- /* menu spicy food */
+ /* menu */
 .red {
     color:red;
 }
 .fa-pepper-hot {
     margin: 0; 
+}
+.key {
+    letter-spacing: 2px;
 }
 /* footer */
 .copyright-img {
