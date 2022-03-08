@@ -108,7 +108,9 @@ th {
     margin: 0; 
 }
 .key {
-    letter-spacing: 2px;
+    padding: 8%;
+    margin-top: 0%;
+    letter-spacing: 1px;
 }
 /* footer */
 .copyright-img {
